@@ -23,7 +23,6 @@ Full details, plus five data traps found by profiling, are in
 
 1. Put the three source files in `data/source/` (they are not stored in this repo):
    `appointments_regional.csv`, `national_categories.csv`, `actual_duration_csv.xlsx`.
-   Names like `appointments_regional_1.csv` are fine too; extract matches on the start of the name.
 2. Set up Python 3.10+ in a virtual environment and install the requirements:
    ```bash
    python -m venv .venv
